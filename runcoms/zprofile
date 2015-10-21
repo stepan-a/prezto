@@ -50,6 +50,8 @@ alias -s am="emacs "
 alias -s log="emacs "
 alias -s txt="emacs "
 
+alias magit='em -e "(magit-status \"$(pwd)\")"'
+
 #
 # Paths
 #
