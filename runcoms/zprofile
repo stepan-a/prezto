@@ -66,6 +66,7 @@ typeset -gU cdpath fpath mailpath path
 path=(
   /usr/local/{bin,sbin}
   /Users/stepan/.scripts
+  /Users/stepan/dynare/admin-wiki/scripts
   $path
 )
 
