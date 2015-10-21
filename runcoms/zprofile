@@ -17,6 +17,12 @@ fi
 # Editors
 #
 
+alias emacs-daemon='/usr/local/bin/emacs --daemon'
+alias emacs='/usr/local/bin/emacscient -c'
+alias em='/usr/local/bin/emacscient -t'
+alias mg='mg -n'
+alias edit='mg -n'
+
 export EDITOR='mg -n'
 export VISUAL='mg -n'
 export PAGER='less'
