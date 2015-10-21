@@ -35,6 +35,21 @@ if [[ -z "$LANG" ]]; then
   export LANG='fr_FR.UTF-8'
 fi
 
+
+#
+# Aliases
+
+alias -s pdf="open -a Skim "
+alias -s mod="emacs "
+alias -s dyn="emacs "
+alias -s tikz="emacs "
+alias -s tex="emacs "
+alias -s m="emacs "
+alias -s md="emacs "
+alias -s am="emacs "
+alias -s log="emacs "
+alias -s txt="emacs "
+
 #
 # Paths
 #
@@ -79,3 +94,19 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+DISABLE_AUTO_TITLE=true
+
+#
+# Compilers
+#
+export CC=gcc-5
+export CXX=g++-5
+export FC=gfortran-5
+
+
+#
+#  Matlab/Octave
+#
+export JAVA_HOME=$(/usr/libexec/java_home)
+export MATLAB_HOME=/Applications/MATLAB_R2015b.app
